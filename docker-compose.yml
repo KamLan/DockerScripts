@@ -1,0 +1,38 @@
+version: '2'
+
+services:
+  
+    tomcat:
+      image: tomcat
+      ports:
+        - '8081:8080'
+      restart: always
+    
+    #websphere-liberty:
+    #  image: websphere-liberty
+    #  restart: always
+
+    #websphere-traditionnal:
+    #  image: ibmcom/websphere-traditional
+    #  ports:
+    #    - '9043:9043'
+    #    - '9443:9443  '
+    #  restart: always
+
+    sonarqube:
+      image: sonarqube:latest
+      ports:
+        - '9000:9000'
+      restart: always
+
+    jenkins:
+      image: jenkins-custom
+      ports:
+        - '8083:8080'
+      restart: always
+
+    gitlab:
+      image: gitlab/gitlab-ce
+      ports:
+        - '8082:8080'
+      restart: always

@@ -119,8 +119,8 @@ clear
 ;;
 
 *)
-    echo "This number is not a viable option"
-    sleep 2 
-	exec /home/kam/Courses/Docker/nuke-docker.sh;
+echo "This number is not a viable option"
+sleep 2 
+exec /home/kam/Courses/Docker/nuke-docker.sh;
 ;;
 esac

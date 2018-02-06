@@ -18,3 +18,9 @@ can accomplish with docker :
 - development environment
 - production environment
 - continuous integration process
+
+/!\ Work in progress /!\
+docker-swarm.sh
+This script is a work in progress and will be about the docker 
+fonctionality swarm. This tool can do wonderfull things ! 
+/!\ Work in progress /!\

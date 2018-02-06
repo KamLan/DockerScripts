@@ -4,6 +4,14 @@
 
 clear
 
+docker --version
+if [ $? -ne 0 ]
+then
+    echo "You need to install docker to use this script"
+    sleep 3
+    exit
+fi
+
 echo "#################################################################"
 echo "#                                                               #"
 echo "#    Welcome in the automated demonstration script of  Docker   #"
